@@ -1,0 +1,117 @@
+<footer>
+    <div class="logo-V">
+        <img src="ressources/images/flatIcon/logo versus blanc.png" alt="" class="logoV">
+        <h5>Copyright © 2019 Nan. All rights reserved</h5>
+    </div>
+
+    <div class="text-links">
+        <ul class="texts">
+            <li class="parent-link">
+                <h3>Langages</h3>
+                <ul class="link">
+                    <li><a href="#">Front-end</a></li>
+                    <li><a href="#">Back-end</a></li>
+                </ul>
+            </li>
+            <li class="parent-link">
+                <h3>Classement</h3>
+                <ul class="link">
+                    <li><a href="#">Top du mois</a></li>
+                    <li><a href="#">Top de la semaine</a></li>
+                    <li><a href="#">Aujourd'hui</a></li>
+                </ul>
+            </li>
+            <li class="parent-link">
+                <h3>A propos</h3>
+                <ul class="link">
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Qui sommes-nous?</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="img-links">
+        <h3>Suivez-nous</h3>
+        <ul>
+            <li><a href="#"><img src="ressources/images/flatIcon/twitter.svg" class="img-l" alt=""></a></li>
+            <li><a href="#"><img src="ressources/images/flatIcon/instagram.svg" class="img-l" alt=""></a></li>
+            <li><a href="#"><img src="ressources/images/flatIcon/facebook.svg" class="img-l" alt=""></a></li>
+        </ul>
+    </div>
+</footer>
+
+/////// style css
+
+
+/* Footer */
+footer{
+    background-color: var(--color-dark);
+    padding: 7rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .logoV{
+    height: 11rem;
+    margin-bottom: 1rem;
+}
+
+footer h5{
+    color: white;
+    font-size: 1.4rem;
+}
+
+footer .text-links .texts{
+    display: flex;
+}
+
+footer .text-links .parent-link h3{
+    margin-bottom: 1rem;
+}
+
+footer .text-links .texts .parent-link h3{
+    margin-right: 7rem;
+    font-size: 2.5rem;
+    color: var(--color-purple);
+}
+
+footer .text-links .link{
+    font-size: 1.7rem;
+    color: var(--color-white);
+}
+
+footer .text-links .link li{
+    color: var(--color-white);
+    margin-top: .5rem;
+}
+
+footer .text-links .link li a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+footer li{
+    list-style: none;
+}
+
+footer .img-links ul{
+    display: flex;
+}
+
+footer .img-links h3{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 2.5rem;
+}
+
+footer .img-links ul li{
+    list-style: none;
+    margin: 0 2rem;
+}
+
+footer .img-links .img-l{
+    height: 3.5rem;
+}

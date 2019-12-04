@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Versus</title>
+
+    <!--favicons-->
+
+    <!--stylesheet-->
+    <link rel="stylesheet" href="ressources/css/profil.css">
+
+   
+</head>
+<body>
+    
+    <!-- Navbar ******************* -->
+    <nav class="nav">
+        <div>
+            <a href="#">
+                <img src="ressources/images/flatIcon/Logo nan versus.png" class="logo" alt="">
+            </a>
+        </div>
+        <ul id="menu-list">
+            <a href="#">
+                <li>Accueil</li>
+            </a>
+            <a href="#">
+                <li>Langages</li>
+            </a>
+            <a href="#">
+                <li>Classement</li>
+            </a>
+            <a href="#">
+                <li>A propos</li>
+            </a>
+        </ul>
+
+        <div class="logoBox">
+            <img src="ressources/images/flatIcon/menu-bar.svg" class="barMenu close" alt="menu" id="control-btn">
+            <img src="ressources/images/flatIcon/photo.png" alt="" class="photoProfil">
+        </div>
+    </nav> <!-- end navbar -->
+
+
+    <!-- section one -->
+    <main class="main-block">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div>
+                <img src="ressources/images/flatIcon/close.svg" class="closeSidebar" style="cursor:pointer" alt="">
+            </div>
+            <h2 class="sidebarTitle">En ligne</h2>
+
+            <div class="userConnect">
+                <ul>
+                    <div class="left">
+                        <li>
+                            <a href="#">
+                                <img src="ressources/images/flatIcon/photo.png" class="photoUser" alt="">
+                                <div class="connect"></div>
+                            </a>
+                        </li>
+                        <li class="nameUser"><a href="#">User45 Hamdan Lamia</a></li>
+            
+                    </div>
+                    
+                    <div class="right">
+                        <li>
+                            <a href="#">
+                                <img src="ressources/images/flatIcon/battle.svg" class="icons icon1" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="ressources/images/flatIcon/statistic.svg" class="icons" alt="">
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+                <ul>
+                    <div class="left">
+                        <li>
+                            <a href="#">
+                                <img src="ressources/images/flatIcon/photo.png" class="photoUser" alt="">
+                                <div class="disconnect"></div>
+                            </a>
+                        </li>
+                        <li class="nameUser"><a href="#">User45 Hamdan Lamia</a></li>
+            
+                    </div>
+                    
+                    <div class="right">
+                        <li>
+                            <a href="#">
+                                <img src="ressources/images/flatIcon/battle.svg" class="icons icon1" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="ressources/images/flatIcon/statistic.svg" class="icons" alt="">
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+
+        <img src="ressources/images/flatIcon/menu-bar1.svg" class="openSidebar" id="btn-sidebar" style="cursor:pointer"  alt="">
+
+    </main> <!-- end section one -->
+      <!--script-->
+      <script src="ressources/js/jquery.min.js"></script>
+      <script src="ressources/js/main.js"></script>
+      <script>
+        $('#btn-sidebar').click(function(){
+            $('.sidebar').animate({width:'toggle'})
+        })
+
+        $('.closeSidebar').click(function(){
+            $('.sidebar').animate({width:'toggle'})
+        })
+
+      </script>
+</body>
+</html>

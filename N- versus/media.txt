@@ -1,0 +1,75 @@
+@media screen and (max-width:1200px){
+    #menu-list{
+        display: none;
+        width: 100%;
+        text-align: center;
+        margin-top:6.5rem;
+        background: white;
+        z-index: 100;
+    }
+
+    .nav ul a li{
+        list-style: none;
+        font-size: 1.9rem;
+        display: block;
+        margin: 0;
+        height: auto;
+        text-align: center;
+    }
+
+    .nav ul a:hover li{
+        color: white;
+        border-bottom:none;
+        background-color: var(--color-purple)
+    }
+    
+
+    .barMenu{
+        display: inline-block
+    }
+
+    /*Footer*/
+
+    footer .img-links ul li{
+        list-style: none;
+        margin: 0 1rem;
+    }
+
+    footer .text-links .texts .parent-link h3{
+        margin-right: 4rem;
+    }
+
+    footer .img-links .img-l{
+        height: 3rem;
+    }    
+}
+
+@media screen and (max-width:1005px){
+    .img-links{
+        margin: 2rem auto;
+    }
+}
+
+@media screen and (max-width:855px){
+    footer{
+        padding: 1rem;
+        display: block;
+        text-align: center;
+    }
+    
+    footer .text-links .texts{
+        display: block;
+    }
+
+    footer .parent-link{
+        margin-top: 2rem;
+    }
+
+    footer .text-links .texts .parent-link h3{
+        margin-right: 0rem;
+    }
+    
+    footer .img-links ul{
+        justify-content: center;
+    }
+}
