@@ -537,6 +537,95 @@ body{
     transform: rotate(180deg);
 }
 
+/*********Page Classement********/
+
+.body-classement{
+    background-color: var(--color-dark);
+    padding: 2rem 10rem;
+}
+
+.title-classement{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.title-classement img{
+    height: 6rem;
+    margin-right: 1rem;;
+}
+
+.title-classement h2{
+    color: var(--color-white);
+    font-size: 2rem;
+}
+
+.board{
+    width: 70%;
+    background-color: rgba(62, 65, 70, 1);
+}
+
+.line-board{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding: 1.5rem 1rem;
+}
+
+.part1-board ul{
+    display: flex;
+    align-items: center;
+}
+
+.part1-board ul li{
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.part1-board ul .number{
+    border-radius: 50%;
+    padding: .5rem 1rem;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+}
+
+.part1-board ul img{
+    height: 4.5rem;
+    border-radius: 50%;
+}
+
+.part1-board ul .text-board a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.part2-board{
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+}
+
+.part2-board h5{
+    font-size: 1.4rem;
+    color: grey;
+}
+
+.text-board{
+    margin-right: 2rem;
+    text-align: center;;
+}
+
+.text-board1{
+    text-align: center;
+}
+
+.board hr{
+    padding:.05rem;
+    background: rgb(73, 73, 73);
+    border:0;
+    width: 95%;
+    margin: auto
+}
 /* Footer */
 footer{
     background-color: var(--color-dark);
@@ -608,6 +697,7 @@ footer .img-links ul li{
 footer .img-links .img-l{
     height: 3.5rem;
 }
+
 
 /* responsive timeline */
 
