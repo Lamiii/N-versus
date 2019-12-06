@@ -537,6 +537,79 @@ body{
     transform: rotate(180deg);
 }
 
+/* Footer */
+footer{
+    background-color: var(--color-dark);
+    padding: 7rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .logoV{
+    height: 11rem;
+    margin-bottom: 1rem;
+}
+
+footer h5{
+    color: white;
+    font-size: 1.4rem;
+}
+
+footer .text-links .texts{
+    display: flex;
+}
+
+footer .text-links .parent-link h3{
+    margin-bottom: 1rem;
+}
+
+footer .text-links .texts .parent-link h3{
+    margin-right: 7rem;
+    font-size: 2.5rem;
+    color: var(--color-purple);
+}
+
+footer .text-links .link{
+    font-size: 1.7rem;
+    color: var(--color-white);
+}
+
+footer .text-links .link li{
+    color: var(--color-white);
+    margin-top: .5rem;
+}
+
+footer .text-links .link li a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+footer li{
+    list-style: none;
+}
+
+footer .img-links ul{
+    display: flex;
+}
+
+footer .img-links h3{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 2.5rem;
+}
+
+footer .img-links ul li{
+    list-style: none;
+    margin: 0 2rem;
+}
+
+footer .img-links .img-l{
+    height: 3.5rem;
+}
+
+
 /*********Page Classement********/
 
 .body-classement{
@@ -626,78 +699,6 @@ body{
     width: 95%;
     margin: auto
 }
-/* Footer */
-footer{
-    background-color: var(--color-dark);
-    padding: 7rem 3rem;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-footer .logoV{
-    height: 11rem;
-    margin-bottom: 1rem;
-}
-
-footer h5{
-    color: white;
-    font-size: 1.4rem;
-}
-
-footer .text-links .texts{
-    display: flex;
-}
-
-footer .text-links .parent-link h3{
-    margin-bottom: 1rem;
-}
-
-footer .text-links .texts .parent-link h3{
-    margin-right: 7rem;
-    font-size: 2.5rem;
-    color: var(--color-purple);
-}
-
-footer .text-links .link{
-    font-size: 1.7rem;
-    color: var(--color-white);
-}
-
-footer .text-links .link li{
-    color: var(--color-white);
-    margin-top: .5rem;
-}
-
-footer .text-links .link li a{
-    text-decoration: none;
-    color: var(--color-white);
-}
-
-footer li{
-    list-style: none;
-}
-
-footer .img-links ul{
-    display: flex;
-}
-
-footer .img-links h3{
-    text-align: center;
-    margin-bottom: 1rem;
-    color: white;
-    font-size: 2.5rem;
-}
-
-footer .img-links ul li{
-    list-style: none;
-    margin: 0 2rem;
-}
-
-footer .img-links .img-l{
-    height: 3.5rem;
-}
-
 
 /* responsive timeline */
 
